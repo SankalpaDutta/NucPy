@@ -41,3 +41,33 @@ print(content)
 
 
 # myfile.close()     # Always close file after use
+
+with open("/home/sankalpa/NucPy/NucPy/test.txt") as mynewfile:
+    myVariable=mynewfile.readlines()
+
+
+print(myVariable)
+
+
+
+#Reading PDF
+
+#import PyPDF2
+
+#myfile2= open("/home/sankalpa/NucPy/NucPy/sample.pdf",mode='rb') 
+
+#pdf_reader=PyPDF2.pdf
+
+
+# Regular Expression
+#To find a certain keyword
+# ability to find seperate groups of words
+#ability to exclude number or puctuation
+
+
+
+
+
+
+
+
